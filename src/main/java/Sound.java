@@ -24,6 +24,7 @@ for (int i = 0; i<samples.length; i++){
  }
   else if(samples[i]<-limit){
     samples[i]=-limit;
+    val++;
   }
 }
     return val;
@@ -38,6 +39,21 @@ for (int i = 0; i<samples.length; i++){
    */
   public void trimSilenceFromBeginning()
   {
-    /* to be implemented in part (b) */
+  int val = 0;
+    int index = 0;
+    for (int i =0; i<samples.length; i++){
+      if (samples[i]!=){
+        break;
+        index = i;
+      }
+      else if (samples[i]==0){
+        val++;
+      }
+    }
+     int[] aden = new int[samples.length-val];
+    for (int j = 0; j<aden.length; j++){
+      aden[j]=samples[index];
+      index++;
+    }
   }
 }
