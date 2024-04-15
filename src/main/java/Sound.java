@@ -42,7 +42,7 @@ for (int i = 0; i<samples.length; i++){
   int val = 0;
     int index = 0;
     for (int i =0; i<samples.length; i++){
-      if (samples[i]!=){
+      if (samples[i]!=0){
         break;
         index = i;
       }
