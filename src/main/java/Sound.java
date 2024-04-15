@@ -54,7 +54,7 @@ for (int i = 0; i<samples.length; i++){
     for (int j = 0; j<aden.length; j++){
       aden[j]=samples[index];
       index++;
-    }
+    } samples = aden; 
   }
-  samples = aden; 
+ 
 }
