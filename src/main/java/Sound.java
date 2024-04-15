@@ -56,4 +56,5 @@ for (int i = 0; i<samples.length; i++){
       index++;
     }
   }
+  samples = aden; 
 }
