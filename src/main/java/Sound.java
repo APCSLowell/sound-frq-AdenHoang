@@ -52,8 +52,7 @@ for (int i = 0; i<samples.length; i++){
     }
      int[] aden = new int[samples.length-val];
     for (int j = 0; j<aden.length; j++){
-      aden[j]=samples[index];
-      index++;
+      aden[j]=samples[index+j];
     } samples = aden; 
   }
  
